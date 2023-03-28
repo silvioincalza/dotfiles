@@ -24,7 +24,7 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install bash
-brew install bash-completion2
+brew install bash-completion@2
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
@@ -96,6 +96,17 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+brew install kubectl
+brew install docker
+brew install --cask lens
+brew install k9s
+brew install helm
+brew install helmfile
+brew install kube-linter
+brew install kube-score
+brew install minikube
+brew install --cask kube-forwarder
 
 # Remove outdated versions from the cellar.
 brew cleanup
