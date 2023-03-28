@@ -98,7 +98,7 @@ brew install vbindiff
 brew install zopfli
 
 brew install kubectl
-brew install docker
+brew install --cask docker
 brew install --cask lens
 brew install k9s
 brew install helm
@@ -107,6 +107,7 @@ brew install kube-linter
 brew install kube-score
 brew install minikube
 brew install --cask kube-forwarder
+brew install --cask iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup
