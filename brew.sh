@@ -108,6 +108,7 @@ brew install kube-score
 brew install minikube
 brew install --cask kube-forwarder
 brew install --cask iterm2
+brew install --cask transmission
 
 # Remove outdated versions from the cellar.
 brew cleanup
